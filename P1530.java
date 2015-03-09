@@ -6,25 +6,27 @@ package p1530;
  */
 import java.util.*;
 public class P1530 {
-
+    
     /**
-     * @param args the command line arguments
-     */
+    * @param args the command line arguments
+    */
     public static void main(String[] args) {
         // TODO code application logic here
-        Queue<String> takeOff = new LinkedList<String>();
-        Queue<String> land = new LinkedList<String>();
-        menu(takeOff, land);
-        
+        Build prob1530 = new Build();
+        prob1530.setTitle("Airport Traffic Control");
+        prob1530.setVisible(true);
     }
+    
+    /*
     public static void menu(Queue<String> flyOut, Queue<String> flyIn){
+        
         Scanner in = new Scanner(System.in);
         Queue<String> takeOff = flyOut;
         Queue<String> land = flyIn;
         String menuTxt = "Type 'takeOff x' to add a plane to the Take Off Queue. \n"
-                + "Type 'land x' to add a plane to the Landing Queue. \n"
-                + "Type 'next' to allow a plane to either land or fly \n"
-                + "Type 'exit' to exit the program";
+                        + "Type 'land x' to add a plane to the Landing Queue. \n"
+                        + "Type 'next' to allow a plane to either land or fly \n"
+                        + "Type 'exit' to exit the program";
         System.out.println(menuTxt);
         String input = "";
         while(!"exit".equals(input)){
@@ -59,5 +61,5 @@ public class P1530 {
             }
         }
     }
-    
+    */
 }
