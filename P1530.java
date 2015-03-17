@@ -11,13 +11,15 @@ public class P1530 {
     * @param args the command line arguments
     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
         Build prob1530 = new Build();
         prob1530.setTitle("Airport Traffic Control");
         prob1530.setVisible(true);
+        
     }
     
-    /* ///////Pre-GUI Build ... Not currently in use ...
+    ///////Pre-GUI Build ... Not currently in use ...
+    /* 
     public static void menu(Queue<String> flyOut, Queue<String> flyIn){
         
         Scanner in = new Scanner(System.in);
